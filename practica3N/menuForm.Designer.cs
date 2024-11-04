@@ -31,6 +31,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.formulariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formulario1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formulario2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formulario3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +51,9 @@
             // formulariosToolStripMenuItem
             // 
             this.formulariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.formulario1ToolStripMenuItem});
+            this.formulario1ToolStripMenuItem,
+            this.formulario2ToolStripMenuItem,
+            this.formulario3ToolStripMenuItem});
             this.formulariosToolStripMenuItem.Name = "formulariosToolStripMenuItem";
             this.formulariosToolStripMenuItem.Size = new System.Drawing.Size(122, 29);
             this.formulariosToolStripMenuItem.Text = "Formularios";
@@ -60,6 +64,20 @@
             this.formulario1ToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.formulario1ToolStripMenuItem.Text = "Formulario 1";
             this.formulario1ToolStripMenuItem.Click += new System.EventHandler(this.formulario1ToolStripMenuItem_Click);
+            // 
+            // formulario2ToolStripMenuItem
+            // 
+            this.formulario2ToolStripMenuItem.Name = "formulario2ToolStripMenuItem";
+            this.formulario2ToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.formulario2ToolStripMenuItem.Text = "Formulario 2";
+            this.formulario2ToolStripMenuItem.Click += new System.EventHandler(this.formulario2ToolStripMenuItem_Click);
+            // 
+            // formulario3ToolStripMenuItem
+            // 
+            this.formulario3ToolStripMenuItem.Name = "formulario3ToolStripMenuItem";
+            this.formulario3ToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.formulario3ToolStripMenuItem.Text = "Formulario 3";
+            this.formulario3ToolStripMenuItem.Click += new System.EventHandler(this.formulario3ToolStripMenuItem_Click);
             // 
             // menuForm
             // 
@@ -83,5 +101,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem formulariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formulario1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formulario2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formulario3ToolStripMenuItem;
     }
 }

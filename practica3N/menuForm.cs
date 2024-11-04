@@ -19,13 +19,31 @@ namespace practica3N
 
         private void formulario1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            loginForm login = new loginForm();
-            login.ShowDialog();
+            using (loginForm login = new loginForm())
+            {
+                login.ShowDialog();
+            }
         }
 
         private void menuForm_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void formulario2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (RegistrationForm registration = new RegistrationForm())
+            {
+                registration.ShowDialog();
+            }
+        }
+
+        private void formulario3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (CalculatorForm calculator = new CalculatorForm())
+            {
+                calculator.ShowDialog();
+            }
         }
     }
 }
